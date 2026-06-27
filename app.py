@@ -1,3 +1,16 @@
+Setup (once):
+    pip install streamlit pandas plotly openpyxl reportlab
+
+Run:
+streamlit run app.py
+import os, glob, shutil, tempfile
+from datetime import datetime
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import streamlit as st
+from io import BytesIO
+
 import csv
 import io
 import json
